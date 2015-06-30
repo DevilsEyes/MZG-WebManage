@@ -1,0 +1,44 @@
+<div ms-controller="Setting">
+    <div class='Nav'>
+        <div class='Nav_Content'>
+            <img src='imgs/Light_Setting.png'/>
+        </div>
+    </div>
+
+    <div class="Main">
+        <table class='MainTable' border="0">
+            <tr class='Item_Unw'>
+                <td class='Item_Title'>昵称：</td>
+                <td class='Unwrite' id='Item_UserName'>{{nickname}}</td>
+            </tr>
+            <tr class='Item_Unw'>
+                <td class='Item_Title'>行业：</td>
+                <td class='Unwrite' id='Item_UserPro'>{{sector}}</td>
+            </tr>
+            <tr class='Item_Unw'>
+                <td class='Item_Title'>绑定手机：</td>
+                <td class='Unwrite' id='Item_UserPhone'>{{phone}}</td>
+            </tr>
+            <tr class='Item_TextInput'>
+                <td class='Item_Title'>绑定微信：</td>
+                <td>
+                    <div class='DefaultText' id='DefaultWeChat'></div>
+                    <input class='TextInput' type='text' id='Item_UserWeChat' ms-duplex="wxNum" placeholder="输入您的微信号">
+                </td>
+            </tr>
+            <tr class='Item_TextArea'>
+                <td class='Item_Title'>店铺介绍：</td>
+                <td>
+                    <div class='DefaultText' id='DefaultIntro'></div>
+                    <textarea class='TextArea' id='Item_UserIntro' ms-duplex="intro" placeholder="为您的店铺添一小段介绍吧！"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <div class='BTN_Middle' id='BTN_Save' ms-click="Save">保存</div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

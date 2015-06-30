@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>avalon project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!--<script>-->
+        <!--var time = new Date();-->
+        <!--var ele = document.createElement("script");-->
+        <!--ele.outerHTML = '<script src="include/avalon/avalon.modern.js" data-main="main.js?' + time.getTime() + '"><\/script>';-->
+        <!--console.dir(ele);-->
+
+        <!--document.head.appendChild(ele);-->
+    <!--</script>-->
+    <script src="include/avalon/avalon.modern.js" data-main="main.js"></script>
+    <link rel="stylesheet" href="css/Loading.css"/>
+    <link rel="stylesheet" href="css/layer.css"/>
+    <link rel="stylesheet" href="css/layer.ext.css"/>
+
+</head>
+
+<body>
+<div ms-controller="MainPage">
+    <!--Loading-->
+    <div class="Loading" ms-visible="isLoading">
+        <div class="LoadingAnime">
+            <div>
+                <img src="imgs/SpinArrow.png">
+
+                <div>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <img src="imgs/Word.png">
+        </div>
+    </div>
+
+    <div class="Shade"></div>
+
+    <!--这里给选择Tag的弹窗预留空间-->
+    <div></div>
+
+    <!--这里是主体部分login和home页面的切换-->
+    <link rel="stylesheet" ms-href="{{MainCss}}">
+    <div ms-include-src="{{MainUrl}}"></div>
+
+</div>
+
+</body>
+
+</html>

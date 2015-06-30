@@ -1,0 +1,33 @@
+*{
+	font-family: "微软雅黑";
+}
+
+.t_tip{
+	font-size:12px;
+	color:#aaa;
+}
+
+.t_p{
+	font-size:14px;
+	color:#1a1a1a;
+}
+
+.t_p_default{
+	font-size:14px;
+	color:#aaa;
+}
+
+.t_p_intro{
+	font-size:12px;
+	color:#888;
+}
+
+.t_h6{
+	font-size:16px;
+	color:#1a1a1a;
+}
+
+.t_h5{
+	font-size:18px;
+	color:#1a1a1a;
+}

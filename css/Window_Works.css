@@ -1,0 +1,207 @@
+#MyWindows{
+	display: none;
+	position: fixed;
+	float: left;
+	width: 100%;
+	height:100%;
+	left:0px;
+	top:0px;
+	z-index: 100;
+	text-align: center;
+}
+
+.WindowsBG{
+	background:black;
+	opacity: 0.4;
+	position: fixed;
+	float: left;
+	left:0px;
+	top:0px;
+	width: 100%;
+	height:100%;
+	z-index: -1;
+}
+
+.Windows{
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border-radius: 8px;
+	width: 800px;
+	padding-bottom: 40px;
+	z-index: 1;
+}
+
+.WindowAlert{
+	font-size:20px;
+	padding-top:40px;
+}
+
+.WindowHeader{
+	width: 800px;
+	height:70px;
+		
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius:  0px;
+	
+	background-color: #f6f6f6;
+	border-bottom:solid 1px #dddddd;
+}
+
+.WindowHeader img{
+	float: left;
+	margin-left: 28px;
+	margin-top: 26px;
+}
+
+#BTN_CloseWindow{
+	cursor: pointer;
+	float: right;
+	margin-right: 22px;
+	margin-top: 19px;
+	
+	height: 34px;
+	width: 34px;
+	border-radius: 17px;
+	background-color: #dddddd;
+}
+
+#BTN_CloseWindow:hover{
+	background-color: #3399cc;
+}
+
+#BTN_CloseWindow:active{
+	background-color: #4fb0e1;
+}
+
+#BTN_CloseWindow img{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#WindowMainPart{
+	text-align: left;
+	margin: 50px;
+}
+.GroupTabBar{
+	height:40px;
+}
+	.GroupTabBar span{
+		margin: 30px;
+	}
+
+#TagArea table{
+	left:20px;
+	margin-left: 0px;
+	
+	border-collapse: separate;
+	border-spacing: 10px 40px;
+}
+
+.OneGroup{
+	padding-bottom: 50px;
+}
+
+.GroupTitle{
+	width: 100px;
+	color:#4fb0e1;
+	font-size:20px;
+}
+
+#InputAddTag{
+	float: left;
+	width: 120px;
+	height:24px;
+	padding-left: 4px;
+	border:solid 2px #dddddd;
+	
+	border-top-left-radius: 4px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius:  4px;
+
+	background-color:transparent;
+}
+
+#BTN_TagSave{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.BTN_AddTag_NA{
+	float: left;
+	width:28px;
+	height:28px;
+	background-image: url(../imgs/BTN_AddTag.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+}
+
+.BTN_AddTag{
+	float: left;
+	width:28px;
+	height:28px;
+	background-image: url(../imgs/BTN_AddTag.png);
+	background-repeat:no-repeat;
+	background-position:0px -28px;
+}
+
+#BTN_Confirm{
+	cursor: pointer;
+	float:left;
+	margin-left: 40px;
+			
+	text-align: center;
+	font-size: 18px;
+	color:white;
+	border-radius: 4px;
+	margin-top: 40px;
+	width: 200px;
+	height: 32px;
+	padding-top:8px;
+	
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	
+	background-color: #ff6666;
+	left:0px;
+	margin-top: 40px;
+}
+#BTN_Confirm:hover{
+	background-color: #ff9999;
+}
+
+#BTN_Cancel{
+	cursor: pointer;
+	float:right;
+	margin-right: 40px;
+			
+	text-align: center;
+	font-size: 18px;
+	color:black;
+	
+	border-radius: 4px;
+	margin-top: 40px;
+	width: 200px;
+	height: 32px;
+	padding-top:8px;
+	
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+		
+	border:solid 1px #dddddd;
+	background-color: #f6f6f6;
+	left:0px;
+	margin-top: 40px;
+}
+
+#BTN_Cancel:hover{
+	border:solid 1px #aaaaaa;
+	background-color: #ffffff;
+}
+

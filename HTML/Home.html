@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="css/index_Anime.css"/>
+<div class='SubPage' ms-controller="SubPage">
+    <div class="BANNER">
+        <div class="BTN_Download">
+        </div>
+    </div>
+
+    <div class="SideBar">
+        <div class="UserInfo">
+            <img id="Info_UserHead" ms-src={{avatar}}>
+
+            <p id="Info_UserName">{{nickname}}</p>
+
+            <div id="BTN_LogOut"><span ms-click="LogOut()">退出登录</span></div>
+        </div>
+
+        <ul class="SideBar_Main">
+            <li class="SideBar_Tag" id="BTN_SideBar_Setting" ms-click="SideBarClick('Setting')">
+                <img class="SideBar_Tag_Img" src="imgs/Dark_Setting.png"/>
+            </li>
+            <li class="SideBar_Tag" id="BTN_SideBar_Works" ms-click="SideBarClick('Works')">
+                <img class="SideBar_Tag_Img" src="imgs/Dark_Works.png"/>
+            </li>
+            <li class="SideBar_Tag" id="BTN_SideBar_Commodity" ms-click="SideBarClick('Commodity')">
+                <img class="SideBar_Tag_Img" src="imgs/Dark_Commodity.png"/>
+            </li>
+            <li class="SideBar_Tag" id="BTN_SideBar_WeChat" ms-click="SideBarClick('WeChat')">
+                <img class="SideBar_Tag_Img" src="imgs/Dark_WeChat.png"/>
+            </li>
+        </ul>
+    </div>
+
+    <link rel="stylesheet" ms-href="{{SubCss}}"/>
+    <div class="MainForm" ms-include-src="{{SubUrl}}" data-include-rendered="PageLoaded"></div>
+
+</div>

@@ -1,0 +1,112 @@
+*{
+    font-family: "微软雅黑";
+    padding:0;
+    margin:0;
+}
+
+.Loading{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:999;
+    background: rgba(255,255,255,0.9);
+}
+
+.LoadingAnime{
+    position:absolute;
+    z-index:1;
+    top: calc(50% - 50px);
+    margin-left: calc(50% - 100px);
+    width: 200px;
+    height:200px;
+    left:auto;
+    right:auto;
+    text-align: center;
+}
+
+.LoadingAnime>img{
+    margin-top: 24px;
+}
+
+.LoadingAnime>div>img {
+    animation: loadingspin 4s infinite;
+    -moz-animation: loadingspin 4s infinite;
+    -webkit-animation: loadingspin 4s infinite;
+    -o-animation: loadingspin 4s infinite;
+}
+
+.LoadingAnime>div>div {
+    margin-top: -38px;
+}
+
+.LoadingAnime>div>div>span {
+    background: #aaa;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    display: inline-block;
+    animation: loadingblink 4s infinite;
+    -moz-animation: loadingblink 4s infinite;
+    -webkit-animation: loadingblink 4s infinite;
+    -o-animation: loadingblink 4s infinite;
+}
+
+@keyframes loadingspin{
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+@-moz-keyframes loadingspin{
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+@-webkit-keyframes loadingspin{
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+}
+@-o-keyframes loadingspin{
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+}
+
+@keyframes loadingblink {
+    70% {width: 3px;height: 3px;}
+    71% {width: 4px;height: 1px;}
+    73% {width: 4px;height: 1px;}
+    74% {width: 3px;height: 3px;}
+    76% {width: 3px;height: 3px;}
+    77% {width: 4px;height: 1px;}
+    79% {width: 4px;height: 1px;}
+    80% {width: 3px;height: 3px;}
+}
+@-moz-keyframes loadingblink {
+    70% {width: 3px;height: 3px;}
+    71% {width: 4px;height: 1px;}
+    73% {width: 4px;height: 1px;}
+    74% {width: 3px;height: 3px;}
+    76% {width: 3px;height: 3px;}
+    77% {width: 4px;height: 1px;}
+    79% {width: 4px;height: 1px;}
+    80% {width: 3px;height: 3px;}
+}
+@-webkit-keyframes loadingblink {
+    70% {width: 3px;height: 3px;}
+    71% {width: 4px;height: 1px;}
+    73% {width: 4px;height: 1px;}
+    74% {width: 3px;height: 3px;}
+    76% {width: 3px;height: 3px;}
+    77% {width: 4px;height: 1px;}
+    79% {width: 4px;height: 1px;}
+    80% {width: 3px;height: 3px;}
+}
+@-o-keyframes loadingblink {
+    70% {width: 3px;height: 3px;}
+    71% {width: 4px;height: 1px;}
+    73% {width: 4px;height: 1px;}
+    74% {width: 3px;height: 3px;}
+    76% {width: 3px;height: 3px;}
+    77% {width: 4px;height: 1px;}
+    79% {width: 4px;height: 1px;}
+    80% {width: 3px;height: 3px;}
+}

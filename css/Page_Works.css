@@ -1,0 +1,266 @@
+/*导航*/
+.Nav{
+	height: 70px;
+	width: 100%;
+	min-width: 950px;
+	border-bottom:solid 1px #eeeeee;
+}
+
+	.Nav_Content{
+		padding-top: 25px;
+		margin-left: 30px;
+		opacity: 0;
+	}
+	
+	.Nav_BTN{
+		position: absolute;
+		float:right;
+		top:-25px;
+		right:0px;
+		opacity: 0;
+	}
+
+.Main{
+	opacity: 0;
+	margin-left:50px;
+	margin-top:30px;
+}
+
+/*分割线*/
+.Garyborder{
+	width: 95%;
+	min-width: 800px;
+	height:1px;
+	background-color: #e5e5e5;
+	position: relative;
+}
+	.Topborder{top:0px;}
+	.Bottomborder{top:45px;}
+
+/*表格*/
+.MainTable{
+	width: 95%;
+	min-width: 800px;
+	border-collapse: separate;
+	border-spacing: 0px;
+	text-align: center;
+	margin-bottom: 10px;
+	
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.TableTitle{
+	font-size:18px;
+	border-top:solid 1px #eeeeee;
+	border-bottom:solid 1px #eeeeee;
+	height:40px;
+}
+	
+	.Title_work{
+		width:40%;
+		min-width: 400px;
+	}
+	
+	.Title_other{
+		width:15%;
+		min-width: 150px;
+	}
+	
+	.tdCheck{height:120px;width:5%;min-width:50px;}
+	.tdImg{width:10%;min-width:100px;}
+	.tdWord{width:25%;min-width:250px;text-align:left;}
+	.tdOther{width:50%;min-width:80px;}
+	.tdBlank{width:50%;min-width:80px;}
+	/*.tdBTN{max-width:40px;}*/
+	
+ 	.Works_Img{width:80px;height:80px;}
+	.Works_Checkbox{width:20px;height:20px;}
+	.Works_Name{font-size:16px;color:#333333;}
+	.Works_Intro{font-size:12px;color:#9a9a9a;}
+	.Works_Num{font-size:16px;color:#333333;}
+	.Works_Date{font-size:14px;color:#333333;}
+	
+	.BTN_Edit{
+		display: inline-block;
+		width:32px;
+		height:32px;
+		border-radius: 4px;
+		background-image: url(../imgs/BTN_Edit_Works.png);
+		background-repeat:no-repeat;
+		background-position:0px 0px;
+		cursor: pointer;
+		margin: 4px;}
+		
+	.BTN_Edit:hover{background-position:0px -32px;}
+	.BTN_Edit:active{background-position:0px -64px;}
+		
+	.BTN_Delete{
+		display: inline-block;
+		width:32px;
+		height:32px;
+		border-radius: 4px;
+		background-image: url(../imgs/BTN_Delete.png);
+		background-repeat:no-repeat;
+		background-position:0px 0px;
+		cursor: pointer;
+		margin: 4px;}
+		
+	.BTN_Delete:hover{background-position:0px -32px;}
+	.BTN_Delete:active{background-position:0px -64px;}
+	
+		.BTN_Recommend{
+		display: inline-block;
+		width:32px;
+		height:32px;
+		border-radius: 4px;
+		background-image: url(../imgs/BTN_Recommend_Works.png);
+		background-repeat:no-repeat;
+		background-position:0px 0px;
+		cursor: pointer;
+		margin: 4px;}
+		
+	.BTN_Recommend:hover{background-position:0px -32px;}
+	.BTN_Recommend:active{background-position:0px -64px;}
+	
+	
+	.All_Checkbox{width:20px;height:20px;float:left;}
+	.All_Quanxuan{margin-top: -1px;margin-left:5px;float:left;}
+	
+	#BTN_AllDelete img{position:relative;top:1px;left:-5px;}
+	
+/*按钮*/
+		.BTN_Middle{
+			cursor: pointer;
+			
+			text-align: center;
+			font-size: 18px;
+			color:white;
+			
+  			border-radius: 4px;
+  			
+  			margin-top: 40px;
+  			width: 200px;
+  			height: 32px;
+  			padding-top:8px;
+  			
+  			user-select: none;
+			-moz-user-select: none;
+			-webkit-user-select: none;
+		}
+	
+/*页码*/
+.PageTab{
+	float:right;
+	margin-right:50px;
+	
+	font-family: calibri;
+	font-size:14px;
+	color:#151515;
+	font-weight:bold;
+}
+
+	.PageUp{
+		float:right;
+		width:24px;
+		height:24px;
+		margin:5px;
+		
+		cursor: pointer;
+		background-image:url(../imgs/Page_Up_Works.png);
+		background-repeat:no-repeat;
+		background-position:0px 0px;
+	}
+	
+	.PageUp:hover{background-position:0px -24px;}
+	.PageUp:active{background-position:0px -48px;}
+	
+	.PageDown{
+		float:right;
+		width:24px;
+		height:24px;
+		margin:5px;
+		
+		cursor: pointer;
+		background-image:url(../imgs/Page_Up_Works.png);
+		background-repeat:no-repeat;
+		background-position:0px 0px;		
+		
+		-moz-transform:scaleX(-1);
+    	-webkit-transform:scaleX(-1);
+    	-o-transform:scaleX(-1);
+    	transform:scaleX(-1);
+	}
+	
+	.PageDown:hover{background-position:0px -24px;}
+	.PageDown:active{background-position:0px -48px;}
+	
+	
+	.PageNumber{
+		width:24px;
+		height:22px;
+		margin:5px;
+		padding-top: 2px;
+		
+		text-align: center;
+		float:right;
+		cursor: pointer;
+		
+		border-radius: 4px;
+		background-color: #f6f6f6;
+	}
+	.PageNumber:hover{background-color: #4fb0e1;}
+	.PageNumber:active{background-color: #3399cc;color:white;}
+	
+	.PageCurrent{
+		padding-top: 2px;
+		width:24px;
+		height:22px;
+		margin:5px;
+		
+		text-align: center;
+		float:right;
+		cursor:default;
+		
+		border-radius: 4px;
+		background-color: #3399cc;
+		color:white;
+	}
+
+
+/*颜色部分*/
+.TextInput:focus{
+	border:solid 2px #3399cc;
+}
+
+.TextInput:hover{
+	border:solid 2px #4fb0e1;
+}
+
+.TextArea:focus{
+	border:solid 2px #3399cc;
+}
+
+.BTN_Middle{
+  	background-color: #3399cc;
+}
+		
+.BTN_Middle:hover{
+	background-color: #4fb0e1;
+}
+
+.BTN_AllDelete_NA{
+	cursor:default;
+  	background-color: #eeeeee;
+}
+		
+.BTN_AllDelete_NA:hover{
+	background-color: #eeeeee;
+}
+
+.BTN_AllDelete{
+  	background-color: #ff6666;
+}
+
+.BTN_AllDelete:hover{
+  	background-color: #ff9999;
+}

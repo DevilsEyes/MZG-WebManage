@@ -1,0 +1,86 @@
+/*Anime_Slide 悬浮右滑 */
+@keyframes Anime_Slide
+{
+from {width: 200px}
+to {width: 180px}
+}
+@-moz-keyframes Anime_Slide/* Firefox */
+{
+from {width: 200px}
+to {width: 180px}
+}
+@-webkit-keyframes Anime_Slide/* Safari 和 Chrome */
+{
+from {width: 200px}
+to {width: 180px}
+}
+@-o-keyframes Anime_Slide/* Opera */
+{
+from {width: 200px}
+to {width: 180px}
+}
+
+/*Anime_Slide_Op 悬浮左滑 */
+@keyframes Anime_Slide_Op
+{
+from {width: 180px}
+to {width: 200px}
+}
+@-moz-keyframes Anime_Slide_Op/* Firefox */
+{
+from {width: 180px}
+to {width: 200px}
+}
+@-webkit-keyframes Anime_Slide_Op/* Safari 和 Chrome */
+{
+from {width: 180px}
+to {width: 200px}
+}
+@-o-keyframes Anime_Slide_Op/* Opera */
+{
+from {width: 180px}
+to {width: 200px}
+}
+
+.SpAr{
+    position: absolute;
+    float:left
+transform-origin:50% 50%;
+    animation:mymove 4s;
+    -moz-animation:mymove 4s; /* Firefox */
+    -webkit-animation:mymove 4s; /* Safari and Chrome */
+    -o-animation:mymove 4s; /* Opera */
+}
+
+@keyframes mymove
+{
+    from {transform:rotate(0deg)}
+    to {transform:rotate(360deg)}
+}
+
+@-moz-keyframes mymove /* Firefox */
+{
+    from {transform:rotate(0deg)}
+    to {transform:rotate(360deg)}
+}
+
+@-webkit-keyframes mymove /* Safari and Chrome */
+{
+    from {transform:rotate(0deg)}
+    to {transform:rotate(360deg)}
+}
+
+@-o-keyframes mymove /* Opera */
+{
+    from {transform:rotate(0deg)}
+    to {transform:rotate(360deg)}
+}
+
+.BliEy{
+    position: absolute;
+    float:left
+}
+
+.SoWr{
+    padding-top:40px
+}

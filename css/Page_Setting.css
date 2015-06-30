@@ -1,0 +1,141 @@
+.Nav{
+	height: 70px;
+	width: 100%;
+	min-width: 950px;
+	border-bottom:solid 1px #eeeeee;
+}
+
+	.Nav_Content{
+		padding-top: 25px;
+		margin-left: 30px;
+		opacity: 0;
+	}
+	
+.Main{
+	opacity: 0;
+}
+
+.MainTable{
+	list-style-type:none;
+	margin-top: 50px;
+	border-collapse: separate;
+	border-spacing: 60px 0px;
+}
+
+	
+		.Item_Title{
+			vertical-align:top;
+			text-align: right;
+			width:100px;
+		}
+		
+		.Item_Unw{
+			vertical-align:top;
+			height: 80px;
+			width: 120px;
+			margin-right: 80px;
+			text-align: left;
+		}
+		
+		.Unwrite{
+			vertical-align:top;
+			color: #aaaaaa;
+			font-size: 14px;
+			font-family: 宋体;
+			padding-top:3px;
+		}
+		
+		.Item_TextInput{
+			vertical-align:top;
+			height: 80px;
+			padding:3px;
+			padding-left: 6px;
+		}
+		
+		.TextInput{
+			width: 200px;
+			height:23px;
+			padding-left: 4px;
+			border:solid 2px #eeeeee;
+			border-radius:4px;
+			background-color:transparent;
+		}
+		
+		.Item_TextArea{
+			vertical-align:top;
+			height: 200px;
+			padding:3px;
+			padding-left: 6px;
+		}
+		
+		.TextArea{
+			width: 600px;
+			height: 200px;
+			padding-left: 4px;
+			padding-top: 4px;
+			border:solid 2px #eeeeee;
+			border-radius:4px;
+			background-color:transparent;
+		}
+		
+		.DefaultText{
+			float:left;
+			position: absolute;
+			
+			padding-left: 6px;
+			padding-top: 4px;
+			
+			z-index: -1;
+			
+			user-select: none;
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			color:#aaaaaa;
+			font-size:14px;
+		}
+		
+		.BTN_Middle{
+			cursor: pointer;
+			
+			text-align: center;
+			font-size: 18px;
+			color:white;
+			
+  			border-radius: 4px;
+  			
+  			margin-top: 40px;
+  			width: 200px;
+  			height: 32px;
+  			padding-top:8px;
+  			left:260px;
+  			
+  			user-select: none;
+			-moz-user-select: none;
+			-webkit-user-select: none;
+		}
+	
+
+/*颜色部分*/
+.TextInput:hover{
+	border:solid 2px #eedddd;
+}
+
+.TextInput:focus{
+	border:solid 2px #ff6666;
+}
+
+.TextArea:hover{
+	border:solid 2px #eedddd;
+}
+
+.TextArea:focus{
+	border:solid 2px #ff6666;
+}
+
+.BTN_Middle{
+  	background-color: #ff6666;
+}
+		
+.BTN_Middle:hover{
+	background-color: #ff9999;
+}

@@ -1,0 +1,63 @@
+<div ms-controller=Works>
+    <div class='Nav'>
+        <div class='Nav_Content'>
+            <img src='imgs/Light_Works.png'/>
+        </div>
+        <div class='BTN_Middle Nav_BTN' id='BTN_Add'><img src=imgs/icon_BTN_Add.png/>添加作品</div>
+    </div>
+
+    <div class='Main'>
+        <div class='Garyborder Topborder'></div>
+        <div class='Garyborder Bottomborder'></div>
+
+        <table class='MainTable' border='0' id='MainTable'>
+            <tr class='TableTitle'>
+                <td class='Title_work'>作品</td>
+                <td class='Title_other'>张数</td>
+                <td class='Title_other'>更新时间</td>
+                <td class='Title_other'>操作</td>
+            </tr>
+
+            <tr class='Works_Item' id='Item  id  '>
+                <td>
+                    <table>
+                        <tr>
+                            <td class='tdCheck'><input type='checkbox' class='Works_Checkbox' name='Works_Checkbox'/>
+                            </td>
+                            <td class='tdImg'><img class='Works_Img' src='  img[0]' ?imageView2/1/w/80/h/80' '/></td>
+                            <td class='tdWord'>
+                                <p class='Works_Name'> title </p>
+
+                                <p class='Works_Intro'> desc </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td class='tdOther'><p class='Works_Num'> imgNum </p></td>
+                <td class='tdOther'><p class='Works_Date'> time </p></td>
+                <td class='tdOther'>
+                    <div class='BTN_Edit'></div>
+
+                    else if(USER.role>=110&&ROLECHECK==true){str=
+                    <div class='BTN_Recommend'></div>
+                    }
+
+                    <div class='BTN_Delete'></div>
+                </td>
+            </tr>
+        </table>
+
+        <div>
+            <input type='checkbox' class='All_Checkbox' id='CheckboxAllSelect'/>
+            <span class='All_Quanxuan'>全选</span>
+        </div>
+
+        <div class='PageTab' id='PageTab'>
+
+        </div>
+
+        <div class='BTN_Middle BTN_AllDelete_NA' id='BTN_AllDelete' checked=undefined>
+            <img src='imgs/icon_BTN_Delete.png/'>批量删除
+        </div>
+    </div>
+</div>

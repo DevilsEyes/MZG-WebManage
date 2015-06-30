@@ -1,0 +1,124 @@
+input,button,select,textarea{outline:none}
+textarea{resize:none}
+
+body{
+    background-color: #F6F6F6;
+}
+
+.Main{
+    margin-top:10%;
+    margin-left: auto;
+    margin-right: auto;
+    width:770px;
+    height:300px;
+}
+
+.Main img{
+    float: left;
+    margin-top:80px;
+    margin-right:65px;
+}
+
+.border{
+    background-color: rgb(160, 160, 160);
+    width: 1px;
+    height: 296px;
+    float: left;
+}
+
+#TelInput{
+    margin-top:50px;
+    margin-left:78px;
+    width: 343px;
+    height:44px;
+    padding-left: 42px;
+
+    border:0px;
+    border-radius:4px;
+
+    background-color: #F6F6F6;
+    background-image: url(../imgs/Input_Tel.png);
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+}
+
+#TelInput:hover{
+    background-position:0px -88px;
+}
+
+#TelInput:focus{
+    background-position:0px -44px;
+}
+
+#PasswordInput{
+    margin-top:14px;
+    margin-left:78px;
+    width: 343px;
+    height:44px;
+    padding-left: 42px;
+
+    border:0px;
+    border-radius:4px;
+
+    background-color: #F6F6F6;
+    background-image: url(../imgs/Input_Password.png);
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+}
+
+#PasswordInput:hover{
+    background-position:0px -88px;
+}
+
+#PasswordInput:focus{
+    background-position:0px -44px;
+}
+
+.BTN_Middle{
+    margin-top:14px;
+    margin-left:78px;
+    width: 200px;
+    height: 32px;
+    padding-top:8px;
+
+    float:left;
+    cursor: pointer;
+
+    text-align: center;
+    font-size: 18px;
+    color:white;
+
+    border-radius: 4px;
+    background: #ebb208;
+    transition: background 0.1s;
+}
+
+.BTN_Middle:hover{
+    background: #ffcc33;
+    transition: background 0.1s;
+}
+
+.Link_word > a{
+    margin-top:14px;
+    margin-left:78px;
+
+    float:left;
+    cursor: pointer;
+    display: block;
+
+    font-size: 16px;
+    color:#7c7c7c;
+    text-decoration: underline;
+}
+
+.Link_word>a:visited{
+    margin-top:14px;
+    margin-left:78px;
+
+    float:left;
+    cursor: pointer;
+
+    font-size: 16px;
+    color:#7c7c7c;
+    text-decoration: underline;
+}
